@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1008px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    background: #02918c;
+    height: 62px;
+    align-items: center;
+    padding: 20px;
+}
+
+/* main-pic */
+.main {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    height: 700px;
+}
+
+/* About me */
+.about_me {
+    color: #02918c;
+    font-size: 46px;
+    text-align: center;
+    font-weight: bold;
+    padding: 100px 0 30px;
+}
+
+.info {
+    color: #7e8287;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+}
+
+/* About me icon */
+.about {
+    margin-top: 40px;
+    width: 25%;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.icon-container {
+    display: inline-block;
+    width: 20%;
+    margin: 0 2%;
+}
+
+.icon1 {
+
+    background-image: url(../images/ic-lamp.png);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+}
+
+
+.icon2 {
+    background-image: url(../images/ic-pencil.png);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.icon3 {
+    background-image: url(../images/ic-set.png);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.icon4 {
+    background-image: url(../images/ic-laptop.png);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about h3 {
+    color: #7e8287;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about p {
+    color: #7e8287;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 21px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+/* Footer */
+.footer {
+    background-color: #000;
+    height: 79px;
+    color: #7e8287;
+    font-size: 12px;
+    text-align: center;
+    padding: 32px;
+    font-weight: normal;
+}
